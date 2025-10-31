@@ -1,4 +1,4 @@
-package cloudmail.core;
+package core;
 
 /**
  * Estado global sincronizado para coordinar FIN y contadores START/END.

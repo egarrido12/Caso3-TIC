@@ -3,7 +3,6 @@ package actors;
 import mailboxes.Mailbox;
 import model.Message;
 import model.MsgType;
-
 import java.util.Random;
 
 /**

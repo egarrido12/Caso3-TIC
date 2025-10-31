@@ -1,4 +1,4 @@
-package cloudmail.config;
+package config;
 
 public class MailConfig {
     public final int numClients;

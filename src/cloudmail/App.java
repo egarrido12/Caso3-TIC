@@ -1,10 +1,8 @@
-package cloudmail;
-
-import cloudmail.actors.*;
-import cloudmail.config.MailConfig;
-import cloudmail.core.SystemState;
-import cloudmail.mailboxes.*;
-import cloudmail.model.Message;
+import actors.*;
+import config.MailConfig;
+import core.SystemState;
+import mailboxes.*;
+import model.Message;
 
 public class App {
     public static void main(String[] args) throws InterruptedException {

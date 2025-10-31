@@ -1,6 +1,6 @@
-package cloudmail.mailboxes;
+package mailboxes;
 
-import cloudmail.model.Message;
+import model.Message;
 
 import java.util.ArrayDeque;
 

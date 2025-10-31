@@ -1,4 +1,4 @@
-package cloudmail.model;
+package model;
 
 public enum MsgType {
     START,   // Inicio de un cliente

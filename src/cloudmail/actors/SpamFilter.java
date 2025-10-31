@@ -1,11 +1,10 @@
-package cloudmail.actors;
+package actors;
 
-import cloudmail.core.SystemState;
-import cloudmail.mailboxes.Mailbox;
-import cloudmail.model.Message;
-import cloudmail.model.MsgType;
-
+import core.SystemState;
 import java.util.Random;
+import mailboxes.Mailbox;
+import model.Message;
+import model.MsgType;
 
 /**
  * Consumidor de entrada (ESPERA PASIVA). Rutea:
@@ -34,7 +33,7 @@ public class SpamFilter extends Thread {
     public void run() {
         try {
             for (;;) {
-                Message m = inputBox.take(); // PASIVA
+                Message m = (Message) inputBox.take(); // PASIVA
                 if (m.type == MsgType.START) {
                     // Solo informativo. SystemState ya contó onStart() desde el cliente.
                     continue;

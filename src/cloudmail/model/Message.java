@@ -1,4 +1,4 @@
-package cloudmail.model;
+package model;
 
 public class Message {
     public final MsgType type;

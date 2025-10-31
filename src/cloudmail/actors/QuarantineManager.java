@@ -1,9 +1,8 @@
-package cloudmail.actors;
+package actors;
 
-import cloudmail.mailboxes.Mailbox;
-import cloudmail.model.Message;
-import cloudmail.model.MsgType;
-
+import mailboxes.Mailbox;
+import model.Message;
+import model.MsgType;
 import java.util.Random;
 
 /**

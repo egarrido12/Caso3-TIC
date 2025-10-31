@@ -1,8 +1,7 @@
-package cloudmail.mailboxes;
-
-import cloudmail.model.Message;
+package mailboxes;
 
 import java.util.ArrayDeque;
+import model.Message;
 
 /**
  * Buzón SIN límite. Lectura con ESPERA SEMI-ACTIVA (wake-ups cortos).

@@ -1,10 +1,9 @@
-package cloudmail.actors;
+package actors;
 
-import cloudmail.core.SystemState;
-import cloudmail.mailboxes.Mailbox;
-import cloudmail.model.Message;
-
+import core.SystemState;
 import java.util.Random;
+import mailboxes.Mailbox;
+import model.Message;
 
 /**
  * Productor: genera START, N EMAILS (id único y flag spam aleatorio) y END.
